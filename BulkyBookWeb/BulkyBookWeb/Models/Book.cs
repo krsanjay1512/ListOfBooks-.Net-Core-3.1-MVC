@@ -14,5 +14,6 @@ namespace BulkyBookWeb.Models
         public string Name { get; set; }
         public string Auther { get; set; }
         public string ISBN { get; set; }
+        public DateTime DateTime { get; set; }
     }
 }
